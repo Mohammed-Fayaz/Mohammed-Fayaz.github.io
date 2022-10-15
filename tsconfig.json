@@ -11,7 +11,9 @@
         "checkJs": true,
         "baseUrl": "./src",
         "paths": {
-            "shared": ["./shared"]
+            "shared": ["./shared"],
+            "Components": ["./Components"],
+            "svg": ["./svg"]
         },
         "esModuleInterop": true,
         "skipLibCheck": true,

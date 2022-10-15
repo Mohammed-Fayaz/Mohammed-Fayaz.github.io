@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    &::-webkit-scrollbar {
+            display: none;
+        }
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(45deg, red, blue);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    .central-heading {
+        color: white;
+        font-size: 72px;
+    }
+
+    .link-bar {
+        display: flex;
+        svg {
+            :hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
