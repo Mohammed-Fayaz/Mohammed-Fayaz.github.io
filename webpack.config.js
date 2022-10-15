@@ -39,7 +39,7 @@ const ROOT_DIR = process.cwd();
 module.exports = {
     entry: path.join(__dirname, 'src', 'index.tsx'),
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'docs'),
     },
 
     devServer: {
