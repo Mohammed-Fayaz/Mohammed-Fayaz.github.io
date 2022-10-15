@@ -15,12 +15,22 @@ const Homepage: React.FC = () => {
             </div>
             <div className={HomepageStyles['link-bar']}>
                 <div
-                    onClick={() => window.open('https://twitter.com', '_blank')}
+                    onClick={() =>
+                        window.open(
+                            'https://twitter.com/FayazsalimMoha',
+                            '_blank'
+                        )
+                    }
                 >
                     <TwitterSVG />
                 </div>
                 <div
-                    onClick={() => window.open('https://github.com', '_blank')}
+                    onClick={() =>
+                        window.open(
+                            'https://github.com/Mohammed-Fayaz',
+                            '_blank'
+                        )
+                    }
                 >
                     <GithubSVG />
                 </div>
